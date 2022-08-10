@@ -30,15 +30,15 @@ function App() {
   }, [timer])
   
   return (
-    <div className="App bg-[#101820]">
-      { preloader ? 
+    <div className="App bg-[#0d0d0d]">
+      {/* { preloader ? 
         <div className='flex justify-center align-center w-full h-full'>
           <img src={focusChart} alt='focus chart' className='w-[90vw] h-[100vh]'></img>
-        </div> :
+        </div> : */}
         <Routes>
           <Route path="/" element={<Main />} />
         </Routes>
-      }
+      {/* } */}
     </div>
   );
 }
