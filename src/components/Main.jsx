@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import wordLogo from '../pics/wordLogo.png'
-import table from '../pics/table.jpg'
+// import table from '../pics/table.jpg'
+import aberration_video from '../Videos/aberration_video.mp4'
 import logo_rgb from '../pics/logo_rgb.png'
 import apple from '../pics/apple.png'
 import disney from '../pics/disney.png'
@@ -213,9 +214,11 @@ export default function Main() {
                 </div>
             </section>
 
-            <section className='h-[100vh] w-[100vw] fixed z-20'>
-                <div className='relative h-[95vh] w-[97vw]'>
-                    <img src={table} alt="Video background" className='relative h-[95vh] w-[97vw] mt-[2.5vh] ml-[1.5vw] opacity-100' id='table'></img>
+            <section className='h-[100vh] w-[100vw] fixed z-20 flex align-items-center'>
+                <div className='relative h-[95vh] w-[140vw]'>
+                    <video id='video' muted autoplay loop width='4000' className='relative h-[95vh] mt-[2.5vh] ml-[1.5vw] opacity-100' data-object-fit='cover'>
+                        <source src={aberration_video} type='video/mp4' />
+                    </video>
                 </div>
             </section>
 
