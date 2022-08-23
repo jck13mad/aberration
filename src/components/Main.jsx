@@ -144,7 +144,7 @@ export default function Main() {
                 scrollTrigger: {
                     trigger: element,
                     start: "center center",
-                    end: Wvh(125) + " center",
+                    end: Wvh(123) + " center",
                     scrub: 3,
                     pin: "#circle",
                     toggleActions: 'restart none none none',
@@ -247,7 +247,7 @@ export default function Main() {
             </section>
 
             <section className='w-[100vw] h-fit absolute mt-[100vh] pb-[5vh] bg-[#0d0d0d] rounded-[80px] z-30 flex flex-row border-2 border-white'>
-                <div className='border-l-2 border-white w-1 h-[125vh] relative top-10 left-[8vw] z-40'></div>
+                <div className='border-l-2 border-white w-1 h-[123vh] relative top-10 left-[8vw] z-40'></div>
                 <div className='rounded-full w-5 h-5 bg-white relative top-10 left-[7.2vw] z-40' id='circle'></div>
                 <div>
                     <div className='relative left-[20vw] h-fit w-fit' id='about'>
