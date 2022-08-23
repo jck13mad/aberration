@@ -309,9 +309,9 @@ export default function Main() {
                         </div>
                     </a>
                 </div>
-                <div className='flex flex-row w-content relative mt-[13vh] justify-center align-center space-x-60 left-[22vw]'>
+                <div className='flex flex-row w-content relative mt-[13vh] justify-center align-center space-x-60 left-[22.5vw]'>
                     <div className='h-fit w-fit'>
-                        <h3 className='text-white text-[2vw]'>317.500.0019</h3>
+                        <h3 className='text-white text-[2vw]'>310.650.1052</h3>
                     </div>
                     <div className='h-fit w-fit'>
                         <h3 className='text-white text-[2vw]'>Nashville, TN, USA</h3>
