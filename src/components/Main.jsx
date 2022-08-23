@@ -276,7 +276,7 @@ export default function Main() {
 
             </div>
 
-            <section className='w-[100vw] h-[60vh] absolute mt-[252vh] pb-[13vh] bg-[#0d0d0d] rounded-[80px] z-30 border-2 border-white'>
+            <section className='w-[100vw] h-[60vh] absolute mt-[249vh] pb-[13vh] bg-[#0d0d0d] rounded-[80px] z-30 border-2 border-white'>
                 {/* <div className='border-l-2 border-white w-1 h-[60vh] relative top-10 left-[8vw] z-40'></div>
                 <div className='rounded-full w-5 h-5 bg-white relative top-10 left-[7.2vw] z-40' id='circle2'></div> */}
                 <div className='w-content flex flex-col justify-center relative left-[22vw] space-y-16'>
@@ -297,7 +297,7 @@ export default function Main() {
                 </div>    
             </section>
 
-            <section className='w-fit h-fit absolute mt-[313vh] pb-[20vh] bg-transparent z-30' id='contact'>
+            <section className='w-fit h-fit absolute mt-[310vh] pb-[20vh] bg-transparent z-30' id='contact'>
                 <div className='relative left-[20vw] h-fit w-fit'>
                     <h1 className='relative text-white text-[5.5vw] mt-[20vh]' id='help'>How Can We Help?</h1>
                     <hr className='relative w-[35vw] h-[1vh] bg-gradient-to-r from-red-500 via-blue-500 to-green-500'/>
