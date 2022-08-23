@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 // import Loader from './components/Loader'
 // import focusChart from './pics/focusChart.gif';
 import { FaBeer } from 'react-icons/fa';
-import Main from './components/main';
+import Main from './components/Main';
 
 function App() {
 
