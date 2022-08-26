@@ -215,7 +215,7 @@ export default function Main() {
                     <ul className='list-none text-left space-x-8 text-white flex flex-row'>
                         <a href='https://tfetn9etlwo.typeform.com/to/hPE8Baza' rel="noopener noreferrer" target="_blank" className='group pt-3' >
                             <div className='rounded-[80px] relative bg-white w-28 h-12 flex flex-row justify-center group-hover:bg-[#0d0d0d] border-2 border-white transition duration-200'>
-                                <h1 className='pt-3 text-sm group-hover:text-white text-black transition duration-200'>Contact Us</h1>
+                                <h1 className='pt-3 text-sm group-hover:text-white text-[#0d0d0d] transition duration-200'>Contact Us</h1>
                             </div>
                         </a>
                     </ul>
@@ -240,15 +240,17 @@ export default function Main() {
                 <div className='absolute bottom-[3vh] left-[3vw] opacity-100' id='view-video'>
                     <a href='https://youtu.be/n1GTMn9MARw' rel="noopener noreferrer" target="_blank" className='group pt-3' >
                         <div className='rounded-[80px] relative bg-white w-28 h-12 flex flex-row justify-center group-hover:bg-[#0d0d0d] border-2 border-white transition duration-200'>
-                            <h1 className='pt-3 text-sm group-hover:text-white text-black transition duration-200'>View Video</h1>
+                            <h1 className='pt-3 text-sm group-hover:text-white text-[#0d0d0d] transition duration-200'>View Video</h1>
                         </div>
                     </a>
                 </div>
             </section>
 
             <section className='w-screen h-fit absolute mt-[100vh] pb-[5vh] bg-[#0d0d0d] rounded-[80px] z-30 flex flex-row border-2 border-white'>
-                <div className='border-l-2 border-white w-1 h-[108vh] relative top-10 left-[8vw] z-40'></div>
-                <div className='rounded-full w-5 h-5 bg-white relative top-10 left-[7.2vw] z-40' id='circle'></div>
+                <div className='flex justify-center top-10 relative z-40'>
+                    <div className='border-r-2 border-white w-1 h-[108vh] absolute left-[7.4vw]'></div>
+                    <div className='rounded-full w-5 h-5 bg-white absolute left-[7vw]' id='circle'></div>
+                </div>
                 <div>
                     <div className='relative left-[20vw] h-fit w-fit' id='about'>
                         <h1 className='relative text-white text-[5.5vw] mt-[8vh]' id='first'><mark className='color-white bg-color-white'>Story</mark> Comes First.</h1>
@@ -261,7 +263,7 @@ export default function Main() {
                         Stories are what bind us together. We prioritize building long-lasting relationships that go well beyond the completion of a project. 
                     </h1>
                     <h1 className='relative left-[22vw] mt-32 text-3xl w-[55vw] text-left text-white pb-[7vh]' id='fourth'>
-                        By the end of our first engagement, we want you to feel you`ve found the creative problem solvers you`ve always wanted on your team.
+                        By the end of our first engagement, we want you to feel you`ve found the creative problem solvers you've always wanted on your team.
                     </h1>
                 </div>
             </section>
