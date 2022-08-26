@@ -31,7 +31,7 @@ function App() {
   // }, [timer])
   
   return (
-    <div className="App bg-[#0d0d0d]">
+    <div className="App bg-[#0d0d0d] w-screen overscroll-x-hidden">
       {/* { preloader ? 
         <div className='flex justify-center align-center w-full h-full'>
           <img src={focusChart} alt='focus chart' className='w-[90vw] h-[100vh]'></img>

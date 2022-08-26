@@ -12,7 +12,7 @@ class VideoPlayer extends Component {
     return (
       <div onClick={() => this.setState({muted: !this.state.muted})}>
         {/* data-object-fit="cover" */}
-        <video id="aberration-video" muted={this.state.muted} autoPlay loop playsInline='true' >
+        <video id="aberration-video" className="overflow-x-hidden" muted={this.state.muted} autoPlay loop playsInline='true' >
             <source src={aberration_video} />
         </video>
       </div>
